@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-wordle"
+version = "0.1.0"
+description = "Python wordle clone"
+authors = ["Igor Moskalev <moskalev.igor.v@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+packages = [{include = "python_wordle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
